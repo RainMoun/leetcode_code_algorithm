@@ -57,7 +57,6 @@ class Solution2:
         return nums
 
 
-
 s = Solution2()
 lst = [1, 5, 1, 1, 6, 4]
 print(s.wiggleSort(lst))

@@ -27,6 +27,7 @@ class Solution:
             mark_new += 2
         return nums
 
+
 class Solution2:
     def wiggleSort(self, nums):
         """

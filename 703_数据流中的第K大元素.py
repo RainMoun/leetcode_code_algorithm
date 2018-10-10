@@ -1,7 +1,7 @@
 import bisect
 
-class KthLargest:
 
+class KthLargest:
     def __init__(self, k, nums):
         """
         :type k: int

@@ -5,6 +5,7 @@ class TreeNode:
         self.left = None
         self.right = None
 
+
 class Solution:
     def largestValues(self, root):
         """
@@ -29,6 +30,7 @@ class Solution:
             result_max.append(max(value_line))
             line_node = temp_line_son.copy()
         return result_max
+
 
 t1 = TreeNode(1)
 t2 = TreeNode(3)

@@ -41,7 +41,6 @@ class Solution:
         return result_lst
 
 
-
 t1 = TreeNode(1)
 t2 = TreeNode(2)
 t3 = TreeNode(3)

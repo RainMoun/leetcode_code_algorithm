@@ -19,6 +19,7 @@ class Solution:
             else:
                 return int(''.join([lst_x[0]] + list(reversed(lst_x[1:]))))
 
+
 s = Solution()
 num = 1534236469
 print(s.reverse(num))

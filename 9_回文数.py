@@ -6,6 +6,7 @@ class Solution:
         """
         return list(str(x)) == list(reversed(list(str(x))))
 
+
 s = Solution()
 x = -121
 print(s.isPalindrome(x))

@@ -5,6 +5,7 @@ class TreeNode:
         self.left = None
         self.right = None
 
+
 class Solution:
     def distanceK(self, root, target, K):
         """
@@ -40,6 +41,7 @@ class Solution:
                 if i is not target:
                     result.append(i.val)
         return result
+
 
 t3 = TreeNode(3)
 t5 = TreeNode(5)

@@ -1,6 +1,3 @@
-from datetime import datetime
-
-
 class Solution:
     def licenseKeyFormatting(self, S, K):
         """
